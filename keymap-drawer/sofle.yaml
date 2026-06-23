@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - DEL
-  - {t: Ctl+C, h: Ctl+Sft+C}
+  - {t: Ctl+C, h: Ctl+X}
   - {t: A, h: LGUI}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LCTRL}
@@ -244,3 +244,67 @@ layers:
   - ''
   - ''
   - ''
+  mice:
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - {t: ▽, type: trans}
+  - '&mkp RCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_LEFT'
+  - ''
+  - ''
+  - '&msc SCRL_RIGHT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_RIGHT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [29, 30]
+  k: CLCK
