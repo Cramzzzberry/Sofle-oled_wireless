@@ -16,7 +16,7 @@ layers:
   - {t: Gui+PRINTSCREEN, h: PRINTSCREEN}
   - Q
   - W
-  - {t: E, h: (9*-*)9}
+  - E
   - R
   - T
   - Y
@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - MUTE
-  - ''
+  - PLAY PAUSE
   - N
   - M
   - ','
@@ -58,9 +58,9 @@ layers:
   - {t: SPACE, h: number}
   - {t: BACKSPACE, h: nav}
   - ENTER
-  - '&text1'
-  - '&text2'
-  - '&text3'
+  - ''
+  - ''
+  - ''
   number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
