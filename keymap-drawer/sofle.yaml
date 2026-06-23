@@ -16,7 +16,7 @@ layers:
   - {t: Gui+PRINTSCREEN, h: PRINTSCREEN}
   - Q
   - W
-  - E
+  - {t: E, h: mice}
   - R
   - T
   - Y
@@ -260,7 +260,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - '&msc SCRL_LEFT'
