@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - DEL
-  - TAB
+  - COPY
   - {t: A, h: LGUI}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LCTRL}
@@ -37,7 +37,7 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: RIGHT GUI}
   - ''''
-  - LEFT GUI
+  - PASTE
   - Z
   - X
   - C
