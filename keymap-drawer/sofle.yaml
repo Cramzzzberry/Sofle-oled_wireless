@@ -55,7 +55,7 @@ layers:
   - ''
   - ESC
   - {t: TAB, h: symbol}
-  - {t: SPACE, h: symbol}
+  - {t: SPACE, h: number}
   - BACKSPACE
   - ENTER
   - ''
@@ -116,7 +116,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - '0'
   - ''
