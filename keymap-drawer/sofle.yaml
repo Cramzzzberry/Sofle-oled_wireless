@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default:
+  (9*-*)9:
   - F1
   - F2
   - F3
@@ -13,7 +13,7 @@ layers:
   - F10
   - F11
   - F12
-  - CAPSLOCK
+  - {t: Gui+PRINTSCREEN, h: PRINTSCREEN}
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - DEL
-  - COPY
+  - {t: Ctl+C, h: Ctl+Sft+C}
   - {t: A, h: LGUI}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LCTRL}
@@ -37,7 +37,7 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: RIGHT GUI}
   - ''''
-  - PASTE
+  - Ctl+V
   - Z
   - X
   - C
@@ -180,6 +180,67 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  nav:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
   - ''
   - ''
   - ''
