@@ -52,7 +52,7 @@ layers:
   - /
   - ''
   - {t: gaming, h: toggle}
-  - ''
+  - '&text_3'
   - ESC
   - {t: TAB, h: symbol}
   - {t: SPACE, h: number}
