@@ -59,8 +59,8 @@ layers:
   - {t: BACKSPACE, h: nav}
   - ENTER
   - CAPSLOCK
-  - ''
-  - ''
+  - '&text_1'
+  - '&text_2'
   number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
