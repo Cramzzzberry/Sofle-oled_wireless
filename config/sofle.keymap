@@ -30,35 +30,13 @@
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
-    macros {
-        text1: text1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(I) &kp S &kp S &kp U &kp E &kp COLON &kp RET &kp MINUS &kp SPACE &kp RET &kp RET &kp LS(A) &kp C &kp T &kp I &kp O &kp N &kp FSLH &kp S &kp SPACE &kp LS(T) &kp A &kp K &kp E &kp N &kp COLON &kp RET &kp MINUS &kp SPACE &kp RET &kp RET &kp LS(P) &kp E &kp N &kp D &kp I &kp N &kp G &kp SPACE &kp LS(A) &kp C &kp T &kp I &kp O &kp N &kp S &kp COLON &kp RET &kp MINUS &kp SPACE>;
-            label = "TEXT1";
-        };
-
-        text2: text2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(R) &kp E &kp Q &kp U &kp E &kp S &kp T &kp COLON &kp RET &kp MINUS &kp SPACE &kp RET &kp RET &kp LS(A) &kp C &kp T &kp I &kp O &kp N &kp FSLH &kp S &kp SPACE &kp LS(T) &kp A &kp K &kp E &kp N &kp COLON &kp RET &kp MINUS &kp SPACE &kp RET &kp RET &kp LS(P) &kp E &kp N &kp D &kp I &kp N &kp G &kp SPACE &kp LS(A) &kp C &kp T &kp I &kp O &kp N &kp S &kp COLON &kp RET &kp MINUS &kp SPACE>;
-            label = "TEXT2";
-        };
-
-        text3: text3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp LC(X) &kp LS(C) &kp L &kp I &kp E &kp N &kp T &kp SPACE &kp LS(N) &kp A &kp M &kp E &kp SPACE &kp MINUS &kp SPACE &kp LS(L) &kp E &kp A &kp R &kp N &kp SPACE &kp PIPE &kp SPACE &kp LS(E) &kp N &kp V &kp I &kp R &kp O &kp N &kp M &kp E &kp N &kp T &kp SPACE &kp MINUS &kp SPACE &kp LS(L) &kp E &kp A &kp R &kp N &kp SPACE &kp PIPE &kp RET &kp LC(V) &kp ENTER &kp LS(I) &kp S &kp S &kp U &kp E &kp COLON &kp SPACE>;
-            label = "TEXT3";
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
 
         capslock {
             bindings = <&kp CLCK>;
             key-positions = <29 30>;
+            timeout-ms = <75>;
         };
     };
 
