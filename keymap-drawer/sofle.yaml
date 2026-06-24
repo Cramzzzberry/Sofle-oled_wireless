@@ -37,7 +37,7 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: RIGHT GUI}
   - ''''
-  - Ctl+V
+  - {t: Ctl+V, h: Ctl+Sft+V}
   - Z
   - X
   - C
@@ -58,7 +58,7 @@ layers:
   - {t: SPACE, h: number}
   - {t: BACKSPACE, h: nav}
   - ENTER
-  - ''
+  - CAPSLOCK
   - ''
   - ''
   number:
@@ -305,6 +305,3 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-combos:
-- p: [29, 30]
-  k: CLCK
