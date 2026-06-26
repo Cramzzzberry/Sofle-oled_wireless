@@ -76,6 +76,10 @@
 &mt LC(LS(V)) LC(V)              &kp Z       &kp X           &kp C        &kp V         &kp B      &kp C_MUTE     &kp C_PLAY_PAUSE  &kp N      &kp M         &kp COMMA    &kp DOT     &kp FSLH                 &none
                                              &tog 4          &text_3      &kp ESC       &lt 2 TAB  &lt 1 SPACE    &lt 3 BACKSPACE   &kp ENTER  &kp CAPSLOCK  &text_1      &text_2
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         number_layer {
@@ -143,7 +147,9 @@
             >;
 
             label = "gaming";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         mouse_layer {
