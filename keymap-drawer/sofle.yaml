@@ -16,7 +16,7 @@ layers:
   - {t: Gui+PRINTSCREEN, h: PRINTSCREEN}
   - Q
   - W
-  - E
+  - {t: E, h: mice}
   - R
   - T
   - Y
@@ -305,3 +305,64 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  mice:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - {type: held}
+  - '&mkp RCLK'
+  - ''
+  - '&msc SCRL_LEFT'
+  - ''
+  - ''
+  - '&msc SCRL_RIGHT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
