@@ -51,15 +51,15 @@ layers:
   - .
   - /
   - ''
-  - {t: gaming, h: toggle}
+  - ''
+  - ''
   - ESCAPE
   - {t: TAB, h: symbol}
-  - number
-  - SPACE
-  - BACKSPACE
-  - nav
+  - {t: SPACE, h: number}
+  - {t: BACKSPACE, h: nav}
   - ENTER
   - CAPSLOCK
+  - ''
   - ''
   number:
   - {t: ▽, type: trans}
@@ -115,10 +115,10 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
-  - '0'
+  - {type: held}
   - {t: ▽, type: trans}
+  - '0'
   - ''
   - ''
   - ''
@@ -175,8 +175,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -209,10 +209,10 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT GUI
+  - LEFT ALT
+  - LCTRL
+  - LEFT SHIFT
   - ''
   - LEFT
   - DOWN
@@ -237,74 +237,13 @@ layers:
   - ''
   - ''
   - ''
+  - ''
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {type: held}
   - ''
   - ''
   - ''
-  gaming:
-  - ESC
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - DEL
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - \
-  - LEFT SHIFT
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - LCTRL
-  - Z
-  - X
-  - C
-  - V
-  - B
   - ''
-  - ''
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - RSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT ALT
-  - ''
-  - SPACE
-  - BSPC
-  - ''
-  - ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   mice:
   - ''
   - ''
@@ -420,10 +359,76 @@ layers:
   - ''
   - ''
   - ''
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - ''
   - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
+  gaming:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - DEL
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - ''
+  - ''
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT ALT
+  - ''
+  - SPACE
+  - BSPC
+  - ''
+  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [50, 51]
+  k: {t: gaming, h: toggle}
+- p: [58, 59]
+  k: LOCK
