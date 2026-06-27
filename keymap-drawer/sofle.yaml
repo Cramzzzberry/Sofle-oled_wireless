@@ -52,15 +52,15 @@ layers:
   - /
   - ''
   - {t: gaming, h: toggle}
-  - '&text_3'
-  - ESC
+  - ESCAPE
   - {t: TAB, h: symbol}
-  - {t: SPACE, h: number}
-  - {t: BACKSPACE, h: nav}
+  - number
+  - SPACE
+  - BACKSPACE
+  - nav
   - ENTER
   - CAPSLOCK
-  - '&text_1'
-  - '&text_2'
+  - ''
   number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&worknote_INC'
   - '1'
   - '2'
   - '3'
@@ -86,7 +86,7 @@ layers:
   - '9'
   - '0'
   - KP NUMLOCK
-  - {t: ▽, type: trans}
+  - '&worknote_RITM'
   - ''
   - ''
   - ''
@@ -98,7 +98,7 @@ layers:
   - '6'
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - '&close_notes'
   - ''
   - ''
   - ''
@@ -115,20 +115,14 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {type: held}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - '0'
   - ''
   - ''
   - ''
   symbol:
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -136,6 +130,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&client_header_1'
   - '!'
   - '@'
   - '#'
@@ -152,7 +152,7 @@ layers:
   - ^
   - '&'
   - '~'
-  - CLCK
+  - ''
   - '['
   - ']'
   - '*'
@@ -175,11 +175,11 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -239,8 +239,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -269,7 +269,7 @@ layers:
   - O
   - P
   - \
-  - CAPS
+  - LEFT SHIFT
   - A
   - S
   - D
@@ -281,7 +281,7 @@ layers:
   - L
   - ;
   - ''''
-  - LSHFT
+  - LCTRL
   - Z
   - X
   - C
@@ -297,12 +297,12 @@ layers:
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LCTRL
+  - LEFT ALT
+  - ''
   - SPACE
   - BSPC
+  - ''
   - ENTER
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mice:
@@ -361,8 +361,69 @@ layers:
   - ''
   - ''
   - ''
+  - LEFT SHIFT
+  - LCTRL
   - ''
   - ''
+  - ''
+  btootz:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - {type: held}
   - ''
   - ''
   - ''
