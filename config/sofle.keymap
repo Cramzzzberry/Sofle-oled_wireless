@@ -110,11 +110,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans          &trans        &trans        &trans        &trans        &trans                    &trans        &trans        &trans        &trans        &trans  &trans
-&worknote_INC   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                    &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0  &kp KP_NUMLOCK
-&worknote_RITM  &none         &none         &none         &none         &none                     &none         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none   &none
-&close_notes    &none         &none         &none         &none         &none   &trans    &trans  &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &none
-                              &none         &none         &none         &trans  &none     &none   &kp N0        &none         &none         &none
+&trans          &trans        &trans        &trans        &trans        &trans                          &trans        &trans        &trans        &trans        &trans  &trans
+&worknote_INC   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                          &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0  &kp KP_NUMLOCK
+&worknote_RITM  &none         &none         &none         &none         &none                           &none         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none   &none
+&close_notes    &none         &none         &none         &none         &none   &trans    &trans        &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &none
+                              &none         &none         &none         &trans  &none     &kp NUMBER_0  &trans        &none         &none         &none
             >;
 
             sensor-bindings =
@@ -143,11 +143,11 @@
 
         navigation_layer {
             bindings = <
-&none  &none   &none   &none   &none   &none                  &none     &none     &none   &none      &none  &none
-&none  &none   &none   &none   &none   &none                  &none     &none     &none   &none      &none  &none
-&none  &trans  &trans  &trans  &trans  &none                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
-&none  &none   &none   &none   &none   &none  &none    &none  &none     &none     &none   &none      &none  &none
-               &none   &none   &none   &none  &none    &none  &trans    &none     &none   &none
+&none  &none   &none   &none   &none   &none                   &none     &none     &none   &none      &none  &none
+&none  &none   &none   &none   &none   &none                   &none     &none     &none   &none      &none  &none
+&none  &trans  &trans  &trans  &trans  &none                   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
+&none  &none   &none   &none   &none   &none   &none    &none  &none     &none     &none   &none      &none  &none
+               &none   &none   &none   &trans  &none    &none  &trans    &none     &none   &none
             >;
 
             label = "nav";
