@@ -58,9 +58,9 @@ layers:
   - {t: SPACE, h: number}
   - {t: BACKSPACE, h: nav}
   - ENTER
-  - CAPSLOCK
-  - ''
-  - ''
+  - ESCAPE
+  - PAGE DOWN
+  - PAGE UP
   number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -430,5 +430,5 @@ layers:
 combos:
 - p: [50, 51]
   k: {t: gaming, h: toggle}
-- p: [58, 59]
-  k: LOCK
+- p: [24, 25]
+  k: CAPSLOCK
