@@ -398,8 +398,10 @@ path.combo {
 </a><text x="168" y="266" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="42" y="162" width="28" height="26" class="combo"/>
-<text x="56" y="175" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+<path d="M448,154 l-121,0" class="combo"/>
+<path d="M448,154 l121,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
@@ -632,8 +634,10 @@ path.combo {
 </a><text x="168" y="266" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="42" y="162" width="28" height="26" class="combo"/>
-<text x="56" y="175" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+<path d="M448,154 l-121,0" class="combo"/>
+<path d="M448,154 l121,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
@@ -869,8 +873,10 @@ path.combo {
 </a><text x="168" y="266" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="42" y="162" width="28" height="26" class="combo"/>
-<text x="56" y="175" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+<path d="M448,154 l-121,0" class="combo"/>
+<path d="M448,154 l121,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
@@ -1079,8 +1085,10 @@ path.combo {
 </a><text x="168" y="266" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="42" y="162" width="28" height="26" class="combo"/>
-<text x="56" y="175" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+<path d="M448,154 l-121,0" class="combo"/>
+<path d="M448,154 l121,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
@@ -1310,8 +1318,10 @@ path.combo {
 </a><text x="168" y="266" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="42" y="162" width="28" height="26" class="combo"/>
-<text x="56" y="175" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+<path d="M448,154 l-121,0" class="combo"/>
+<path d="M448,154 l121,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
@@ -1520,8 +1530,10 @@ path.combo {
 </a><text x="168" y="266" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="42" y="162" width="28" height="26" class="combo"/>
-<text x="56" y="175" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+<path d="M448,154 l-121,0" class="combo"/>
+<path d="M448,154 l121,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
@@ -1775,8 +1787,10 @@ path.combo {
 </a><text x="168" y="266" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="42" y="162" width="28" height="26" class="combo"/>
-<text x="56" y="175" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+<path d="M448,154 l-121,0" class="combo"/>
+<path d="M448,154 l121,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>

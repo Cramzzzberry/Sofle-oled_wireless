@@ -430,5 +430,5 @@ layers:
 combos:
 - p: [50, 51]
   k: {t: gaming, h: toggle}
-- p: [24, 25]
+- p: [29, 30]
   k: CAPSLOCK
