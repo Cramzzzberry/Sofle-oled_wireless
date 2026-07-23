@@ -135,7 +135,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&client_header_1'
+  - '&client_header'
   - '!'
   - '@'
   - '#'
@@ -159,7 +159,7 @@ layers:
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&signature'
   - ''
   - ''
   - ''
