@@ -53,7 +53,7 @@ layers:
   - ''
   - ''
   - ''
-  - ESCAPE
+  - {t: ESC, h: btootz}
   - {t: TAB, h: symbol}
   - {t: SPACE, h: number}
   - {t: BACKSPACE, h: nav}
@@ -358,12 +358,12 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
   - ''
   - ''
   gaming:
